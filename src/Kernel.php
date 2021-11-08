@@ -23,6 +23,7 @@ class Kernel extends BaseKernel
             $container->import('../config/{services}.php');
         }
     }
+    
 
     protected function configureRoutes(RoutingConfigurator $routes): void
     {
