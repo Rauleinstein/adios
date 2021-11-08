@@ -24,6 +24,8 @@ class Kernel extends BaseKernel
         }
     }
 
+    // alksdjflñasdf
+
     protected function configureRoutes(RoutingConfigurator $routes): void
     {
         $routes->import('../config/{routes}/'.$this->environment.'/*.yaml');
